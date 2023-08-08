@@ -1,3 +1,8 @@
+/*font-family: 'Bellefair', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Barlow', sans-serif;
+*/
+
 /**************************/
 /* HEADER */
 /**************************/
@@ -17,6 +22,7 @@ header {
   padding-left: 6rem;
   padding-right: 6rem;
   align-items: center;
+  font-family: "Bellefair", serif;
 }
 
 .logo {
@@ -39,14 +45,17 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  font-family: "Barlow", sans-serif;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
   border-bottom: 3px solid rgb(192, 192, 192);
 }
 
@@ -55,27 +64,32 @@ header {
 /**************************/
 
 .home {
-  margin-top: 20rem;
+  margin-top: 22rem;
   margin-left: 14rem;
+  gap: 20rem;
 }
 
 .section-one h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: #fff;
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
 }
 
 .section-one h1 {
   font-size: 13rem;
   margin-bottom: 1rem;
   color: #fff;
+  font-weight: 200;
 }
 
 .section-one p {
-  width: 70%;
-  font-size: 1.4rem;
-  line-height: 1.4;
-  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  width: 90%;
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
 }
 
 /**************************/
@@ -86,14 +100,25 @@ header {
 .home-button:visited {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 1.8rem;
+  color: black;
+  font-size: 3.4rem;
   transition: all 0.3s;
+  padding: 10rem;
+  background-color: #fff;
+  height: 28rem;
+  width: 28rem;
+  margin-left: 12rem;
+  border-radius: 100%;
+  font-family: "Bellefair", serif;
 }
 
 .home-button:hover,
 .home-button:active {
-  color: #fff;
-  border-bottom: 3px solid rgb(192, 192, 192);
+  box-shadow: 0px 0px 0px 40px #979797;
+  transition: 0.5s;
+}
+
+.section-two p {
+  margin-top: 2rem;
+  margin-left: -3rem;
 }
