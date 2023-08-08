@@ -1,0 +1,99 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.navbar-links li:hover {
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+.nav-btn-active {
+  border-bottom: 3px solid white;
+}
+
+header {
+  background-color: hsla(0, 100%, 90%, 0.2);
+  color: #fff;
+  margin-top: 2rem;
+  height: 10rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+
+/**************************/
+/* HOME */
+/**************************/
+
+.home {
+  margin-top: 20rem;
+  margin-left: 14rem;
+}
+
+.section-one h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.section-one h1 {
+  font-size: 13rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.section-one p {
+  width: 70%;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/**************************/
+/* HOME-BUTTON */
+/**************************/
+
+.home-button:link,
+.home-button:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.home-button:hover,
+.home-button:active {
+  color: #fff;
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
