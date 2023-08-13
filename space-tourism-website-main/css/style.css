@@ -461,6 +461,170 @@ span {
 
 /******** CREW **************/
 
+.crew {
+  height: 60rem;
+  gap: 20rem;
+}
+
 .crew-bdy {
+  margin-bottom: -2rem;
   background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg);
+}
+
+/**************************/
+/* CREW LINK */
+/**************************/
+
+.main-nav-link-drei:link,
+.main-nav-link-drei:visited {
+  display: inline-block;
+  border-bottom: 3px solid white;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  padding: 4rem 2rem;
+}
+
+.main-nav-link-drei:hover,
+.main-nav-link-drei:active {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+
+/**************************/
+/* CREW IMG */
+/**************************/
+
+.section-zehn {
+  background-size: 43rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/crew/image-douglas-hurley.webp);
+}
+
+/**************************/
+/* CREW HEADER*/
+/**************************/
+
+.section-neun h2 {
+  font-size: 3.4rem;
+  color: white;
+  opacity: 50%;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: 10rem;
+}
+
+.section-neun h1 {
+  font-size: 5.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 2rem;
+  font-weight: 200;
+  text-align: justify;
+  font-family: "Barlow", sans-serif;
+}
+
+/**************************/
+/* CREW PARAGRAPH */
+/**************************/
+
+.section-neun p {
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  margin-top: 3rem;
+}
+
+/**************************/
+/* CREW PAGE LINK */
+/**************************/
+
+.crew-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 6.4rem;
+  gap: 4rem;
+  margin-left: 1rem;
+}
+
+.crew-link:link,
+.crew-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  background-color: #fff;
+  opacity: 30%;
+  border-radius: 50%;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.crew-link:hover,
+.crew-link:active {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  padding: 1rem;
+  background-color: #d0d6f9;
+  cursor: help;
+}
+
+.crew-link-eins:link,
+.crew-link-eins:visited {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.crew-link-eins:hover,
+.crew-link-eins:active {
+  font-family: "Barlow", sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+/**************************/
+/* CREW IMG SPECILIAST */
+/**************************/
+
+.section-zwolf {
+  background-size: 43rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/crew/image-mark-shuttleworth.webp);
+}
+
+/**************************/
+/* CREW IMG PILOT */
+/**************************/
+
+.section-dreizehn {
+  background-size: 43rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/crew/image-victor-glover.webp);
+}
+
+/**************************/
+/* CREW IMG ENGINEER */
+/**************************/
+
+.section-vielzehn {
+  background-size: 43rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/crew/image-anousheh-ansari.webp);
 }
