@@ -181,6 +181,8 @@ header {
 
 .destination-bdy {
   background-image: url(../starter-code/assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /**************************/
@@ -459,7 +461,9 @@ span {
   border-bottom: 1px solid white;
 }
 
-/******** CREW **************/
+/**************************/
+/* CREW */
+/**************************/
 
 .crew {
   height: 60rem;
@@ -627,4 +631,132 @@ span {
   background-size: 43rem;
   background-repeat: no-repeat;
   background-image: url(../starter-code/assets/crew/image-anousheh-ansari.webp);
+}
+
+/**************************/
+/* TECHNOLOGY */
+/**************************/
+
+.technology-bdy {
+  background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg);
+}
+
+/**************************/
+/* TECHNOLOGY LINK */
+/**************************/
+
+.section-techlogy-ein {
+  display: flex;
+  margin-left: 18.4rem;
+}
+
+.technology-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rem;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+
+.technology-link:link,
+.technology-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 2.4rem 3.2rem;
+  background-color: transparent;
+  font-family: "Bellefair", serif;
+  font-size: 3rem;
+  transition: all 0.3s;
+}
+
+.technology-link:hover,
+.technology-link:active {
+  color: black;
+  font-family: "Bellefair", serif;
+  padding: 2.4rem 3.2rem;
+  background-color: #fff;
+  cursor: help;
+}
+
+.technology-link-eins:link,
+.technology-link-eins:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Bellefair", serif;
+  cursor: help;
+  font-size: 3rem;
+  transition: all 0.3s;
+  color: black;
+  padding: 2.5rem 3.3rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.technology-link-eins:hover,
+.technology-link-eins:active {
+  font-family: "Bellefair", serif;
+  background-color: #fff;
+  color: black;
+  font-size: 3rem;
+  padding: 2.4rem 3.2rem;
+}
+
+/**************************/
+/* TECHNOLOGY WRITE */
+/**************************/
+
+.technology-write {
+  margin-top: 12rem;
+  margin-left: 4.8rem;
+}
+
+.technology-write h2 {
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+
+.technology-write h1 {
+  margin-top: 3rem;
+  font-size: 5.2rem;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+}
+
+.technology-write p {
+  margin-top: 3rem;
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+/**************************/
+/* TECHNOLOGY IMG */
+/**************************/
+
+.section-techlogy-zwei {
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/technology/image-launch-vehicle-portrait.jpg);
+}
+
+.section-techlogy-drei {
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/technology/image-spaceport-portrait.jpg);
+}
+
+.section-techlogy-viel {
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-image: url(../starter-code/assets/technology/image-space-capsule-portrait.jpg);
 }

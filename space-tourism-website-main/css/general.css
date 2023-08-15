@@ -11,6 +11,10 @@ html {
 
 body {
   background-image: url(../starter-code/assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120rem;
 }
 
 .container {
@@ -45,6 +49,10 @@ body {
 
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--technology {
+  grid-template-columns: 2fr 1fr;
 }
 
 .grid--center-v {
